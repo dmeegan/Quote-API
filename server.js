@@ -8,5 +8,5 @@ const PORT = process.env.PORT || 4001;
 
 app.use(express.static('public'));
 
-server.listen(PORT);
+app.listen(PORT);
 
