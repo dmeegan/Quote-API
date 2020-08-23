@@ -1,0 +1,17 @@
+[33mcommit 5fc31372ddc5dcc7e40c72eff6c50552e10d637c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: dmeegan <dn_meegan@yahoo.com>
+Date:   Sun Aug 23 13:32:38 2020 -0400
+
+    Added get route to return a random quote
+
+[33mcommit f4996ea13f2c6d4ce28f3720e7153541cfd66255[m
+Author: dmeegan <dn_meegan@yahoo.com>
+Date:   Sun Aug 23 13:07:03 2020 -0400
+
+    Changed server.listen to app.listen and server is now working
+
+[33mcommit a6fce4ee9321c7c150778bcb936f9d4bbd59ab0e[m
+Author: dmeegan <dn_meegan@yahoo.com>
+Date:   Sun Aug 23 13:04:18 2020 -0400
+
+    Set up Quote API repo
