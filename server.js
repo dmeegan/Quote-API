@@ -34,7 +34,7 @@ app.post('/api/quotes', (req, res, next) => {
     if (quoteToAdd && personToAdd) {
         const newQuote = {quote: quoteToAdd, person: personToAdd};
         quotes.push(newQuote);
-        res.send(newQuote);
+        res.send({quote: newQuote});
     } else {
         res.status(400).send('Please enter a quote and the attributing person.');
     }
